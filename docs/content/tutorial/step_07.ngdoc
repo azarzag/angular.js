@@ -276,7 +276,7 @@ URL. All variables defined with the `:` notation are extracted into the
 __`app/js/controllers.js`:__
 
 ```js
-var phonecatControllers = angular.module('phonecatControllers', []);
+var phonecatControllers = angular.module('phonecatControllers', ['ngRoute']);
 
 phonecatControllers.controller('PhoneListCtrl', ['$scope', '$http',
   function ($scope, $http) {
